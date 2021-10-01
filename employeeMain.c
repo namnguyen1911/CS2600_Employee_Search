@@ -6,8 +6,9 @@
 
 int main(void) {
     //defined in employeeSearchOne.c
-    PtrToConstEmployee searchEmployeeByNumber(const Employee table[], int sizeTable, long numberToFind);
-    PtrToConstEmployee searchEmployeeByName(const Employee table[], int sizeTable, char * nameToFind);
+    PtrToEmployee searchEmployeeByNumber(const Employee table[], int sizeTable, long numberToFind);
+    
+    PtrToEmployee searchEmployeeByName(const Employee table[], int sizeTable, char * nameToFind);
 
     //defined in employeeTable.c
     extern Employee EmployeeTable[];
